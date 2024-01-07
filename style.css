@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
  
 .like {
@@ -23,3 +23,6 @@ body {
 }
 
 .navbar{background-color: #dc3545;}
+
+#toggles {position: fixed;top: 50%;left: 0px;transform: translateY(-50%);width: 30px;height: 30px;line-height: 30px;
+                    text-align: center;cursor: pointer;background: #000;z-index:100;}
