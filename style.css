@@ -1,28 +1,143 @@
+/* General Styles */
 body {
-    background-color: #ffffff;
-}
- 
-.like {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
-    color: #ffffff;
-}
- 
-.dislike {
-    background-color: #dc3545;
-    border-color: #dc3545;
-    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #000;
 }
 
-.carousel-item img {
-    height: 33rem;
+.dark-mode {
+    background-color: #121212; /* لون الخلفية لوضع الظلام */
+    color: #ffffff; /* لون النص لوضع الظلام */
 }
 
-.navbar.navbar-dark .navbar-nav .nav-link:hover  {
-    color: rgb(218, 83, 83);
+.dark-navbar {
+    background-color: #1f1f1f; /* لون الـ navbar لوضع الظلام */
+    color: #ffffff; /* لون النص في الـ navbar لوضع الظلام */
 }
 
-.navbar{background-color: #dc3545;}
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* لون الـ navbar في الوضع العادي */
+    color: #000000; /* لون النص في الـ navbar في الوضع العادي */
+}
 
-#toggles {position: fixed;top: 50%;left: 0px;transform: translateY(-50%);width: 30px;height: 30px;line-height: 30px;
-                    text-align: center;cursor: pointer;background: #000;z-index:100;}
+.dark-mode .navbar {
+    background-color: #333;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #1c1c1c;
+}
+
+/* Buttons */
+.btn-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-toggle:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode .btn-toggle {
+    background-color: #555;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #121212; /* لون الخلفية لوضع الظلام */
+    color: #ffffff; /* لون النص لوضع الظلام */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #1c1c1c;
+}
+
+/* Buttons */
+.btn-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-toggle:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode .btn-toggle {
+    background-color: #555;
+}
+
+.btn-like,
+.btn-dislike {
+    margin-right: 5px;
+}
+
+/* إضافة أنماط للهيدر في الوضع العادي */
+header {
+    background-color: #ffffff; /* لون الهيدر في الوضع العادي */
+    color: #000000; /* لون النص في الهيدر في الوضع العادي */
+}
